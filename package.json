@@ -1,0 +1,34 @@
+{
+  "name": "mcp_app",
+  "version": "0.1.0",
+  "description": "study mcp",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "mcp_app": "./build/server.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/server.js', '755')\" && cross-env NODE_ENV=development node build/server.js",
+    "start": "tsc && node -e \"require('fs').chmodSync('build/client.js', '755')\" && cross-env NODE_ENV=production node build/client.js build/server.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "chalk": "^5.4.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.5.0",
+    "marked": "^15.0.8",
+    "uuid": "^11.1.0",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.3.3"
+  }
+}
