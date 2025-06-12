@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-> MCP Markdown Server 是一个基于 Model Context Protocol (MCP) 的服务器应用，提供 Markdown 文档的**创建**、**编辑**、**搜索**、**转换为html**和**管理**的功能。该项目结合了讯飞星火大模型 API 和 MCP 协议，实现了智能化的 Markdown 文档处理能力。
+> MCP Markdown Server 是一个基于 Model Context Protocol (MCP) 的服务器应用，提供 Markdown 文档的**创建**、**编辑**、**搜索**、**转换为html**和**管理**的功能。该项目通过了结合了讯飞星火大模型的 MCP Client 以及自定义 MCP Server 协议，实现了智能化的 Markdown 文档处理能力。
 
 ## 主要功能
 
