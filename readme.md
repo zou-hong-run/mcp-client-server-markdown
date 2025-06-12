@@ -121,6 +121,10 @@ mcp-markdown-server/
 
 本项目采用 MIT 许可证。
 
+## Certification
+This server is certified with [MCP Review](https://mcpreview.com/mcp-servers/zou-hong-run/mcp-client-server-markdown).
+## 认证  
+本服务器已通过 [MCP Review](https://mcpreview.com/mcp-servers/zou-hong-run/mcp-client-server-markdown) 认证。
 ## 联系方式
 
 如有任何问题，请联系项目维护者：
